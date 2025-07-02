@@ -1,0 +1,26 @@
+<html>
+<head><title>CASE CHANGER</title>
+<script language="JavaScript">
+function toupp()
+{
+ var text;
+ text=document.frm.txt1.value;
+document.frm.txt2.value=text.toUpperCase();
+}
+function tolow()
+{
+ var text;
+ text=document.frm.txt1.value;
+document.frm.txt2.value=text.toLowerCase();
+}
+</script></head>
+<body bgcolor="#e0ffff"align="left"><form name="frm">
+<font size="8"><center><u><b>SIMPLE CASE CHANGER USING JAVASCRIPT</b></u></center></font><BR><BR><BR><br><BR><BR>
+<font size="5">Enter the text that you wish to change its current case:
+<input type="text"name="txt1"><BR><BR><BR><BR><BR>
+The text you want:
+<input type="text"name="txt2"><br><br><BR><BR>
+<input type="button"value="Uppercase"OnClick="toupp()">&nbsp;&nbsp;<input type="button"value="Lowercase"OnClick="tolow()">&nbsp;&nbsp;<input type="reset" value="clear">
+</font></form>
+</body>
+</html>
